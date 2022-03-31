@@ -426,6 +426,12 @@ section .title::after{
     font-size: 25px; 
     color:rgb(10, 126, 15)
 }
+.contact .contact-content .info .head{
+    font-weight: 500;
+}
+.contact .contact-content .info .sub-title{
+    color:rgb(171, 173, 9)
+}
 
 @media (max-width: 690px){
     .max-width{
