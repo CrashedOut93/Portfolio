@@ -478,6 +478,12 @@ section .title::after{
     color: white;
     font-size: 20px;  
     font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.contact .right form .button button:hover{
+    color:rgb(171, 173, 9);
+    background: none;
 }
 
 @media (max-width: 690px){
