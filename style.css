@@ -461,6 +461,17 @@ section .title::after{
     font-size: 17px;
     font-family: "Poppins", sans-serif;
 }
+.contact .right form .textarea textarea{
+    padding-top: 10px;
+    resize: none;
+}
+.contact .right form .button{
+    height: 47px;
+    width: 100%;
+}
+.contact .right form .button button{
+    
+}
 
 @media (max-width: 690px){
     .max-width{
