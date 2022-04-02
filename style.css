@@ -442,7 +442,7 @@ section .title::after{
     margin-bottom: 15px;
 }
 .contact .right form .textarea{
-    heig
+    height: 80px;
 }
 .contact .right form .name{
     margin-right: 10px;
@@ -450,7 +450,8 @@ section .title::after{
 .contact .right form .email{
     margin-left: 10px;
 }
-.contact .right form .field input{
+.contact .right form .field input,
+.contact .right form .textarea textarea{
     height: 100%;
     width: 100%;
     border: 1px solid lightgrey;
