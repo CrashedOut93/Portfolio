@@ -67,6 +67,14 @@ html{
     font-size: 23px;
     cursor: pointer;
 }
+.scroll-up-btn{
+    position: fixed;
+    height: 45px; 
+    width: 42px;
+    background:rgb(171, 173, 9);
+    right: 30px;
+    bottom: 30px;
+}
 
 
 /* home section styling  */
