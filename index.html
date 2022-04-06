@@ -194,6 +194,7 @@
                     </div>
                         <div class="column right">
                             <div class="text">Message Me</div>
+                            <h4 class="sent-notification"></h4>
                             <form id="myForm">
                                 <div class="fields">
                                     <div class="field name" id="name">
@@ -239,6 +240,7 @@
                             body: body.val()
                         }, success: function(response){
                             $('#myForm')[0].reset();
+                            $('.sent-notification').text("Message sent successfully")
                         }
                     });
                 };
