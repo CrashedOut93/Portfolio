@@ -429,7 +429,7 @@ section .title::after{
     content: "Get in touch";
 }
 .contact .contact-content .column{
-    width: calc(50% - 30px);
+    position: center;
 }
 .contact .contact-content .left p{
     text-align: justify;
@@ -438,6 +438,7 @@ section .title::after{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
+
 }
 .contact .contact-content .left .icons{
     margin: 10px 0;
@@ -446,6 +447,7 @@ section .title::after{
     display: flex;
     height: 65px;
     align-items: center;
+    margin-left: 480px;
 }
 .contact .contact-content .row .info{
     margin-left: 30px;
