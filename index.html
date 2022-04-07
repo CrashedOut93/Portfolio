@@ -230,7 +230,7 @@
 
                 if(isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) && isNotEmpty(body)){
                     $.ajax({
-                        url: 'http://127.0.0.1:5500/sendEmail.php ',
+                        url: 'sendEmail.php',
                         method: 'POST',
                         dataType: 'json',
                         data:{
