@@ -211,7 +211,7 @@
                                         <textarea id="body" cols="30" rows="10" placeholder="Describe project.." required></textarea>
                                     </div>
                                         <div class="button">
-                                            <button type="submit" onclick="sendMail()" value="Send an Email">Send Message</button>
+                                            <button type="submit" onclick="sendEmail()" value="Send an Email">Send Message</button>
                                         </div>
                             </form>
                         </div> 
@@ -222,7 +222,7 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
         <script type="text/javascript">
-            function sendMail(){
+            function sendEmail(){
                 var name = $('#name'); 
                 var email = $('#email');
                 var subject = $('#subject');
