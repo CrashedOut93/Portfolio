@@ -447,7 +447,7 @@ section .title::after{
     display: flex;
     height: 65px;
     align-items: center;
-    margin-left: 480px;
+    margin-left: 400px;
 }
 .contact .contact-content .row .info{
     margin-left: 30px;
