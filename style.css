@@ -317,6 +317,10 @@ section .title::after{
     background: lightgrey;
     position: relative;
 }
+.skills .skills-content .left .links{
+    font-size: 22px;
+    font-family:'Times New Roman', Times, serif
+}
 .skills .skills-content .right .line::before{
     content: "";
     position: absolute;
