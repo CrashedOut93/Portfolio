@@ -326,19 +326,19 @@ section .title::after{
     background: green;
 }
 .skills-content .right .html::before{
-    width: 90%;
+    width: 65%;
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 55%;
 }
 .skills-content .right .js::before{
-    width: 80%;
+    width: 70%;
 }
 .skills-content .right .php::before{
-    width: 50%;
+    width: 40%;
 }
 .skills-content .right .mysql::before{
-    width: 70%;
+    width: 60%;
 }
 
 /* responsive media query start  */
@@ -429,7 +429,7 @@ section .title::after{
     content: "Get in touch";
 }
 .contact .contact-content .column{
-    width: calc(50% - 30px);
+    position: center;
 }
 .contact .contact-content .left p{
     text-align: justify;
@@ -438,6 +438,7 @@ section .title::after{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
+
 }
 .contact .contact-content .left .icons{
     margin: 10px 0;
@@ -446,6 +447,7 @@ section .title::after{
     display: flex;
     height: 65px;
     align-items: center;
+    margin-left: 400px;
 }
 .contact .contact-content .row .info{
     margin-left: 30px;
