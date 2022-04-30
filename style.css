@@ -442,6 +442,7 @@ section .title::after{
 }
 .contact .contact-content .left p{
     text-align: justify;
+    font-size: 18px;
 }
 .contact .contact-content .text{
     font-size: 20px;
