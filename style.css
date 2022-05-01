@@ -574,11 +574,11 @@ footer span a:hover{
     }
 }
 
-@media (max-width: 900px){
+@media (max-width: 920px){
     .contact .contact-content .left p{
         padding-left: 80px
     }
     .contact .contact-content .row{
-        padding-right: -99px;
+        padding-left: -160px;
     }
 }
