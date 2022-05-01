@@ -459,7 +459,7 @@ section .title::after{
     display: flex;
     height: 65px;
     align-items: center;
-    margin-left: 400px;
+    /* margin-left: 400px; */
 }
 .contact .contact-content .row .info{
     margin-left: 30px;
@@ -560,6 +560,9 @@ footer span a:hover{
     .skills .skills-content .column{
         width: 100%;
     }
+    .contact .contact-content .row{
+        padding-right: -99px;
+    }
 }
 
 @media (max-width: 500px){
@@ -571,11 +574,11 @@ footer span a:hover{
     }
 }
 
-@media (max-width: 933px){
+@media (max-width: 900px){
     .contact .contact-content .left p{
         padding-left: 80px
     }
     .contact .contact-content .row{
-        padding-right: 95px;
+        padding-right: -99px;
     }
 }
