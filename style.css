@@ -575,7 +575,7 @@ footer span a:hover{
     .contact .contact-content .left p{
         padding-left: 80px
     }
-    .contact .contact-content .left .icons{
-        margin-right: 75px;
+    .contact .contact-content .left{
+        padding-right: 35px;
     }
 }
